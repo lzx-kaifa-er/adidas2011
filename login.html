@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/loginstyle.css">
+</head>
+<body>
+        <!-- 头部导航 -->
+        <div class="head">
+            <div class="head-con">
+    
+                <div class="head-top">
+                    <a href="##"><img src="images/logo-new.png" alt=""></a>
+                    <ul>
+                        <li><a href="">订单追踪</a><i class="iconfont icon-dingdan"></i> </li>
+                        <li><a href="">帮助中心</a>
+                            <i class="iconfont icon-wenhao"></i>
+                        </li>
+                        <li><a href="">在线客服</a>
+                            <i class="iconfont icon-kefu"></i>
+                        </li>
+                        <li><a href="">登录</a>
+                            <i class="iconfont icon-denglu"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="head-bottom">
+                    <div class="head-btm-left">
+                        <ul class="head-btm-left-left">
+                            <li class="man"><a href="">男子</a>
+                                <div class="head-btm-one" style="display: none;" id="nan">
+                                    <ul>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">精选推荐</li>
+                                                <li class="only">最新上市</li>
+                                                <li class="only">新品发售日历</li>
+                                                <li class="only">限量发售</li>
+                                                <li class="only">本周热卖</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">新年优享</li>
+                                                <li class="only">牛年新春系列</li>
+                                                <li class="only">精选鞋款推荐</li>
+                                                <li class="only">冬季甄选推荐-鞋类</li>
+                                                <li class="only">冬季甄选推荐-服饰</li>
+                                                <li><span></span></li>
+                                                <li class="only"><img src="images/140-70-1.jpg" alt=""></li>
+                                                <li class="oneonly">全部男子鞋</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">鞋类</li>
+                                                <li class="only">跑步</li>
+                                                <li class="only">休闲</li>
+                                                <li class="only">篮球</li>
+                                                <li class="only">足球</li>
+                                                <li class="only">户外</li>
+                                                <li class="only">健身/训练</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">小白鞋</li>
+                                                <li class="only">帆布鞋</li>
+                                                <li class="only">Originals</li>
+                                                <li class="only">SUPERSTART</li>
+                                                <li class="only">Nite Jogger</li>
+                                                <li class="only">复古/老爹鞋</li>
+                                                <li class="only" style="margin-bottom: 60px;">UltraBOOST20</li>
+                                                <li class="oneonly">全部男子鞋</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">服饰类</li>
+                                                <li class="only">卫衣/帽衫</li>
+                                                <li class="only">夹克/外套</li>
+                                                <li class="only">棉服/羽绒服</li>
+                                                <li class="only">运动裤</li>
+                                                <li class="only">训练/紧身裤</li>
+                                                <li class="only">短袖T恤/上衣</li>
+                                                <li class="only">运动短裤</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">跑步装备</li>
+                                                <li class="only">健身服</li>
+                                                <li class="only">篮球运动服</li>
+                                                <li class="only">足球比赛服</li>
+                                                <li class="oneonly">全部男子鞋</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">附配件类</li>
+                                                <li class="only">包</li>
+                                                <li class="only">袜子/帽子/手套/围巾/li>
+                                                <li class="only">足球/篮球</li>
+                                                <li class="oneonly">全部男子鞋</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">个性印制产品</li>
+                                                <li class="only"><img src="images/15211227486009014.png" alt=""></li>
+                                                <li class="only">足球个性印制产品</li>
+                                                <li class="only">Originals个性印制产品</li>
+                                                <li class="only">a'di'dasneo个性印制产品</li>
+                                                <li class="only">个性化印制球衣</li>
+                                                <li class="oneonly">全部男子鞋</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="woman"><a href="">女子</a>
+                                <div class="head-btm-one" id="nv" style="display: none;">
+                                    <ul>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">精选推荐</li>
+                                                <li class="only">最新上市</li>
+                                                <li class="only">新品发售日历</li>
+                                                <li class="only">限量发售</li>
+                                                <li class="only">本周热卖</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">新年优享</li>
+                                                <li class="only">牛年新春系列</li>
+                                                <li class="only">精选鞋款推荐</li>
+                                                <li class="only">冬季甄选推荐-鞋类</li>
+                                                <li class="only">冬季甄选推荐-服饰</li>
+                                                <li><span></span></li>
+                                                <li class="only"><img src="images/140-70-1.jpg" alt=""></li>
+                                                <li class="oneonly">全部女子鞋</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">鞋类</li>
+                                                <li class="only">跑步</li>
+                                                <li class="only">休闲</li>
+                                                <li class="only">篮球</li>
+                                                <li class="only">足球</li>
+                                                <li class="only">户外</li>
+                                                <li class="only">健身/训练</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">小白鞋</li>
+                                                <li class="only">帆布鞋</li>
+                                                <li class="only">Originals</li>
+                                                <li class="only">SUPERSTART</li>
+                                                <li class="only">Nite Jogger</li>
+                                                <li class="only">复古/老爹鞋</li>
+                                                <li class="only" style="margin-bottom: 60px;">UltraBOOST20</li>
+                                                <li class="oneonly">全部女子鞋</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">服饰类</li>
+                                                <li class="only">卫衣/帽衫</li>
+                                                <li class="only">夹克/外套</li>
+                                                <li class="only">棉服/羽绒服</li>
+                                                <li class="only">运动裤</li>
+                                                <li class="only">训练/紧身裤</li>
+                                                <li class="only">短袖T恤/上衣</li>
+                                                <li class="only">运动短裤</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">跑步装备</li>
+                                                <li class="only">健身服</li>
+                                                <li class="only">篮球运动服</li>
+                                                <li class="only">足球比赛服</li>
+                                                <li class="oneonly">全部女子鞋</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">附配件类</li>
+                                                <li class="only">包</li>
+                                                <li class="only">袜子/帽子/手套/围巾/li>
+                                                <li class="only">足球/篮球</li>
+                                                <li class="oneonly">全部女子鞋</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">个性印制产品</li>
+                                                <li class="only"><img src="images/15211227486009014.png" alt=""></li>
+                                                <li class="only">足球个性印制产品</li>
+                                                <li class="only">Originals个性印制产品</li>
+                                                <li class="only">a'di'dasneo个性印制产品</li>
+                                                <li class="only">个性化印制球衣</li>
+                                                <li class="oneonly">全部女子鞋</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="children"><a href="">儿童</a>
+                                <div class="head-btm-one" style="display: none;" id="ertong">
+                                    <ul>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">精选推荐</li>
+                                                <li class="only">最新上市</li>
+                                                <li class="only">套装系列</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">乐高联名款</li>
+                                                <li class="only">联名合作款</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">折扣专区</li>
+                                                <li class="only"><img src="images/140-70-1.jpg" alt=""
+                                                        style="margin-bottom: 60px;"></li>
+                                                <li class="oneonly">全部儿童产品</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">大童（8-14岁）</li>
+                                                <li class="only">男大童：鞋类</li>
+                                                <li class="only">女大童：鞋类</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">男大童：服饰</li>
+                                                <li class="only">女大童：服饰</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">箱包附配件</li>
+                                                <li class="oneonly">全部大童（8-14岁）产品</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">大童（8-14岁）</li>
+                                                <li class="only">男大童：鞋类</li>
+                                                <li class="only">女大童：鞋类</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">男大童：服饰</li>
+                                                <li class="only">女大童：服饰</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">箱包附配件</li>
+                                                <li class="oneonly">全部大童（8-14岁）产品</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">大童（8-14岁）</li>
+                                                <li class="only">男大童：鞋类</li>
+                                                <li class="only">女大童：鞋类</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">男大童：服饰</li>
+                                                <li class="only">女大童：服饰</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">箱包附配件</li>
+                                                <li class="oneonly">全部大童（8-14岁）产品</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">个性印制产品</li>
+                                                <li class="only"><img src="images/15211227486009014.png" alt=""></li>
+                                                <li class="only">个性印制儿童鞋</li>
+                                                <li class="only">个性印制儿童服饰</li>
+                                                <li class="oneonly">全部个性印制儿童产品</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="xian">
+                                <span></span>
+                            </li>
+                            <li class="sport"><a href="">运动</a>
+                                <div class="head-btm-two" id="sporter" style="display: none;">
+                                    <ul>
+                                        <li>
+                                            <ul>
+                                                <li class="xhx" class="two-one">
+                                                    <img src="images/favicon.ico" alt=""> 跑步
+                                                </li>
+                                                <li class="only"><img src="images/1.jpg" alt=""></li>
+                                                <li class="only">跑步鞋</li>
+                                                <li class="only">跑步服饰</li>
+                                                <li class="only">运动装备</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">UltraBOOST</li>
+                                                <li class="only">Alpha Bounce</li>
+                                                <li class="only">Clima</li>
+                                                <li class="only" style="margin-bottom: 120px;">PulseBOOST</li>
+                                                <li class="oneonly">全部跑步产品</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="xhx" class="two-one"><img src="images/favicon.ico" alt=""> 训练
+                                                </li>
+                                                <li class="only"><img src="images/2.jpg" alt=""></li>
+                                                <li class="only">训练鞋</li>
+                                                <li class="only">训练服饰</li>
+                                                <li class="only">运动装备</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">运动胸衣Bra&紧身裤</li>
+                                                <li class="only">Clima</li>
+                                                <li class="oneonly">全部训练产品</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="xhx" class="two-one"><img src="images/favicon.ico" alt=""> 足球
+                                                </li>
+                                                <li class="only"><img src="images/3.jpg" alt=""></li>
+                                                <li class="only">足球鞋</li>
+                                                <li class="only">足球俱乐部</li>
+                                                <li class="only">足球服饰</li>
+                                                <li class="only">运动装备</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">Predator</li>
+                                                <li class="only">X</li>
+                                                <li class="only">NEMEZIZ</li>
+                                                <li class="only">COPA</li>
+                                                <li class="oneonly">全部足球产品</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="xhx" class="two-one"><img src="images/favicon.ico" alt=""> 篮球
+                                                </li>
+                                                <li class="only"><img src="images/4.jpg" alt=""></li>
+                                                <li class="only">篮球鞋
+                                                <li class="only">篮球服饰</li>
+                                                <li class="only">运动装备</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">Janmes Harden</li>
+                                                <li class="only">Dreeick Rose</li>
+                                                <li class="only">Damian Lillard</li>
+                                                <li class="only">Donovan Mitchell</li>
+                                                <li class="oneonly">全部篮球产品</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="xhx" class="two-one"><img src="images/favicon.ico" alt=""> 户外
+                                                </li>
+                                                <li class="only"><img src="images/5(2).jpg" alt=""></li>
+                                                <li class="only">户外鞋</li>
+                                                <li class="only">户外服饰</li>
+                                                <li class="oneonly">全部户外产品</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="xhx" class="two-one">其他运动</li>
+                                                <li class="only">网球</li>
+                                                <li class="only">高尔夫</li>
+                                                <li class="only">游泳</li>
+                                                <li class="only">橄榄球</li>
+                                                <li class="only">瑜伽</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="pingpai"><a href="">品牌</a>
+                                <div class="head-btm-two" id="pingpai" style="display: none;">
+                                    <ul>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one">
+                                                    <img src="images/14998372019973088.png" alt="">
+                                                </li>
+                                                <li class="only"><img src="images/1.jpg" alt=""></li>
+                                                <li class="only">跑步鞋</li>
+                                                <li class="only">跑步服饰</li>
+                                                <li class="only">运动装备</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">UltraBOOST</li>
+                                                <li class="only">Alpha Bounce</li>
+                                                <li class="only">Clima</li>
+                                                <li class="only" style="margin-bottom: 120px;">PulseBOOST</li>
+                                                <li class="oneonly">全部跑步产品</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="two-one"><img src="images/1499837240607439.png" alt=""></li>
+                                                <li class="only"><img src="images/导航.jpg" alt=""></li>
+                                                <li class="only">训练鞋</li>
+                                                <li class="only">训练服饰</li>
+                                                <li class="only">运动装备</li>
+                                                <li class="only"><span></span></li>
+                                                <li class="only">运动胸衣Bra&紧身裤</li>
+                                                <li class="only">Clima</li>
+                                                <li class="oneonly">全部训练产品</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <liclass="two-one"><img src="images/NEO-LOGO.jpg" alt="">
+                                        </li>
+                                        <li class="only"><img src="images/3.jpg" alt=""></li>
+                                        <li class="only">足球鞋</li>
+                                        <li class="only">足球俱乐部</li>
+                                        <li class="only">足球服饰</li>
+                                        <li class="only">运动装备</li>
+                                        <li class="only"><span></span></li>
+                                        <li class="only">Predator</li>
+                                        <li class="only">X</li>
+                                        <li class="only">NEMEZIZ</li>
+                                        <li class="only">COPA</li>
+                                        <li class="oneonly">全部足球产品</li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <liclass="two-one"><img src="images/adidasTerrexsmall172x30.jpg" alt="">
+                            </li>
+                            <li class="only"><img src="images/导航banner(5).jpg" alt=""></li>
+                            <li class="only">篮球鞋
+                            <li class="only">篮球服饰</li>
+                            <li class="only">运动装备</li>
+                            <li class="only"><span></span></li>
+                            <li class="only">Janmes Harden</li>
+                            <li class="only">Dreeick Rose</li>
+                            <li class="only">Damian Lillard</li>
+                            <li class="only">Donovan Mitchell</li>
+                            <li class="oneonly">全部篮球产品</li>
+                        </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <liclass="two-one"><img src="images/SM.png" alt="">
+                        </li>
+                        <li class="only"><img src="images/170-80.png" alt=""></li>
+                        <li class="only">户外鞋</li>
+                        <li class="only">户外服饰</li>
+                        <li class="oneonly">全部户外产品</li>
+                        </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li class="two-one"><img src="images/y-3-logo.png" alt=""></li>
+                                <li class="only"><img src="images/banner.jpg" alt=""></li>
+                                <li class="only">高尔夫</li>
+                                <li class="only">游泳</li>
+                                <li class="only">橄榄球</li>
+                                <li class="only">瑜伽</li>
+                                <li class="oneonly">全部户外产品</li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                    </li>
+                    <li><a href="">牛年新春系列</a></li>
+                    </ul>
+                </div>
+                <div class="head-btm-right">
+                    <input type="text" placeholder="牛年新春系列">
+                    <a href=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- 中间登录界面 -->
+        <div class="login">
+            <div class="login-con">
+                <ul class="login-top">
+                    <li class="login-con-one"><span></span>
+                        返回 &nbsp;&nbsp;&nbsp;|</li>
+                    <li>登录|注册&nbsp;&nbsp;&nbsp;/</li>
+                    <li>登录</li>
+                </ul>
+                <div class="login-z">
+                    <div class="login-left">
+                        <div class="login-left-one">
+                            <div class="login-left-top">
+                                <span class="top-one">短信快捷登录/注册</span>
+                                <span class="top-two">账户密码登录</span>
+                            </div>
+                            <!-- 登录窗口 -->
+                            <div class="login-left-z">
+                               <p> <input type="text" placeholder="手机号" id="iphone"></p>
+                                <p class="yzm-p"><input type="password" placeholder="请输入密码" id="yzm"><span id="get">注册账户</span></p>
+                                <div class="yanzhen">
+                                    <input type="checkbox" id="checke">
+                                    <span>记住手机号</span>
+                                </div>
+                                <div class="dl" id="zhuce">
+                                    <span>登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</span>
+                                </div>
+                                <p class="fs">
+                                使用其它方式登录
+                                </p>
+                                <ul class="ico">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                                <p class="xw">
+                                    *
+                                    已绑定微信adiCLUB会员卡的会员，可通过微信直接登录
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login-right">
+                        <div class="login-right-one">
+                        <p class="right-top">
+                            adiCLUB会员相关权益
+                        </p>
+                        <p class="right-two">
+                            成为adiCLUB会员并完善个人信息，即可享受更多权益:
+                        </p>
+                        <ul class="right-ul">
+                            <li><span></span><span>安全快捷支付订单</span></li>
+                            <li><span></span><span>随时跟踪订单状态</span></li>
+                            <li><span></span><span>即时收到打折优惠及新品发布信息</span></li>
+                            <li><span></span><span>全场免普通达运费和七天无理由退货服务</span></li>
+                            <li><span></span><span>消费即可获得积分，铜牌以上会员即可积分兑换优惠券</span></li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部导航 -->
+        <div class="bottom-box">
+        <div class="bottom-con">
+            <ul>
+                <li style="font-size: 16px; line-height: 100px;">联系我们</li>
+                <li>
+                    <span>在线客服</span>
+                    <span>[仅支持中文]</span>
+                </li>
+                <li>
+                    <span>400-999-5999</span>
+                    <span>[仅支持中文]</span>
+                </li>
+                <li><span>
+                    service@adidas.com
+                </span>
+                    <span>[仅支持中文]</span>
+                </li>
+                <li>9:00-22:00 </li>
+            </ul>
+            <li>
+                订单说明
+            </li>
+        </div>
+        </div>
+    <!-- 最底部导航 -->
+        <div class="bottom-box-two">
+        <div class="box-con">
+            <ul>
+            <li>
+                <ul class="bottom-one">
+                    <li class="bottom-only">产品</li>
+                    <li>鞋类</li>
+                    <li>服装</li>
+                    <li>配件</li>
+                    <li>最新上市</li>
+                    <li>新品发售日期</li>
+                    <li>限时发售</li>
+                </ul>
+            </li>
+            <li>
+                <ul  class="bottom-one">
+                    <li  class="bottom-only">运动</li>
+                    <li>跑步</li>
+                    <li>训练</li>
+                    <li>足球</li>
+                    <li>篮球</li>
+                    <li>户外</li>
+                </ul>
+            </li>
+            <li>
+                <ul  class="bottom-one">
+                    <li  class="bottom-only">帮助中心</li>
+                    <li>关于员工</li>
+                    <li>尺码表</li>
+                    <li>adiCLUB会员</li>
+                    <li>门店查询</li>
+                    <li>关于我们</li>
+                    <li>企业社会责任</li>
+                    <li>ADIDAS APP</li>
+                    <li>CONFIRMED APP</li>
+                </ul>
+            </li>
+            <li>
+                <ul  class="bottom-one">
+                    <li  class="bottom-only">网站</li>
+                    <li>使用条款</li>
+                    <li>隐私声明</li>
+                    <li>物流配送规则</li>
+                    <li>退换货规则</li>
+                    <li>adiCLUB会员规则</li>
+                    <li>下单指南</li>
+                    <li>印制服务条款</li>
+                </ul>
+            </li>
+            <li>
+                <ul  class="bottom-five">
+                    <div class="weibo">
+                        <p>关注我们</p>
+                        <li></li>
+                        <li></li>
+                    </div>
+                    <div class="zhiye">
+                        <p>职业发展</p>
+                        <li></li>
+                    </div>
+                </ul>
+            </li>
+            </ul>
+            <div class="fukuan">
+                <span>我们接受下列付款方式：</span>
+                <li></li>
+                <li></li>
+                <li></li>
+            </div>
+            <div class="bottom-zi">
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;企业团购热线及邮箱:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;团购热线: 021-2525 6_81</span>
+                <span> 团购邮箱: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adidas. b2b@adidas.com&nbsp;&nbsp;&nbsp;(仅限采购金额10万以上</span>
+            </div>
+        </div>
+        </div>
+    <!-- 最底部 -->
+        <div class="float">
+        <div class="float-con">
+            <ul class="float-left">
+                <li>中国</li>
+                <li>隐私说明  &nbsp;&nbsp;|</li>
+                <li>使用条款  &nbsp;&nbsp;|</li>
+                <li>网站地图  &nbsp;&nbsp;|</li>
+                <li>© 阿迪达斯体育（中国）有限公司保留所有权利</li>
+            </ul>
+            <ul class="float-right">
+                <li>苏ICP备14048805号-1</li>
+                <li>江苏工商</li>
+                <li>
+                  苏安网安备23010293012930号
+                </li>
+            </ul>
+        </div>
+        </div>
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/login.js"></script>
