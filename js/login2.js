@@ -87,18 +87,16 @@ pingpai.onmouseleave=function(){
 
  //
  let dl = document.querySelector("#denglu");
- minzi.value=Read("login");
- possword.value=Read("password");
- console.log(minzi);
- console.log(possword);
- console.log(dl);
-
+let minzi = document.querySelector("#iphone1")
+let password = document.querySelector("#yzm1");
+console.log(password);
  dl.onclick=function() {    
+     console.log(1);
     if (document.querySelector("#check").checked) {
         let  newname =  minzi.value;
         console.log(newname);
-        let newpassword = possword.value;
-        console.log(newpassword);
+        let newpassword = password.value;
+        console.log(password);
         let http = new XMLHttpRequest();
         http.open("get", `http://127.0.0.1:8080/login?newname=${newname}&password=${newpassword}`)
         http.send()
@@ -116,4 +114,9 @@ pingpai.onmouseleave=function(){
             }
         }
     }
-}
+} 
+mi.value=Read("login");
+possword.value=Read("password");
+console.log(minzi);
+console.log(possword);
+console.log(dl);
